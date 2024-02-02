@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="md:flex justify-between p-10 dark:bg-black text-white ">
-      <aside className="mb-12">
+      <div className="mb-12">
         <Link>
           <div className="flex text-white items-center gap-1">
             <MdFoodBank size={32} />
@@ -16,8 +16,8 @@ function Footer() {
           <br />
           Providing authentic cuisines since 1992
         </p>
-      </aside>
-      <nav className="mb-12">
+      </div>
+      <div className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Services</h6>
         <div className="flex flex-col gap-4">
         <Link to={"#"} className="link link-hover">
@@ -33,8 +33,8 @@ function Footer() {
           Advertisement
         </Link>
         </div>
-      </nav>
-      <nav className="mb-12">
+      </div>
+      <div className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Company</h6>
         <div className="flex flex-col gap-4">
         <Link to={"/about"} className="link link-hover">
@@ -50,7 +50,7 @@ function Footer() {
           Press kit
         </Link>
         </div>
-      </nav>
+      </div>
       <nav className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Legal</h6>
         <div className="flex flex-col gap-4">
