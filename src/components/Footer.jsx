@@ -51,7 +51,7 @@ function Footer() {
         </Link>
         </div>
       </div>
-      <nav className="mb-12">
+      <div className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Legal</h6>
         <div className="flex flex-col gap-4">
         <Link to={"#"} className="link link-hover">
@@ -64,7 +64,7 @@ function Footer() {
           Cookie policy
         </Link>
         </div>
-      </nav>
+      </div>
     </div>
   );
 }
