@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 function HeroSection() {
   return (
     <>
-      <div className=" mt-[35%] md:mt-[20%] lg:mt-[8%] ">
+      <div className=" mt-[35%] md:mt-[20%] lg:mt-[8%] bg-black p-4 bg-opacity-[40%] rounded-lg">
         <div className="mb-[2%]">
           <h3 className=" italic text-2xl md:text-3xl ">Discover the Real</h3>
           <h1 className="font-bold text-[120px] md:[150px]  ">FOOD</h1>
-          <p className=" text-justify md:w-[40%] lg:w-[30%] ">
+          <p className=" text-justify  md:w-[40%] lg:w-[30%] flex flex-wrap ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio
             doloribus laboriosam deleniti iusto mollitia quam perspiciatis
-            repellendus unde reprehenderit, amet tempora qui dolores cumque.
+            
           </p>
         </div>
         <div>
