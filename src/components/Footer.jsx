@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="md:flex justify-between p-10 dark:bg-black text-white ">
+    <div className="md:flex justify-between p-10 bg-black text-white ">
       <div className="mb-12">
         <Link>
           <div className="flex text-white items-center gap-1">
