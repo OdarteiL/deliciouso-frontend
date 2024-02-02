@@ -15,7 +15,7 @@ function MenuPage() {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-4 px-[10%]">
+    <div className="md:grid md:grid-cols-3 gap-4 px-[10%]">
       {menuData.length === 0 ? (
         <p>Loading...</p>
       ) : (
