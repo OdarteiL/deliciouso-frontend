@@ -20,16 +20,16 @@ function Footer() {
       <div className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Services</h6>
         <div className="flex flex-col gap-4">
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Branding
         </Link>
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Design
         </Link>
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Marketing
         </Link>
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Advertisement
         </Link>
         </div>
@@ -37,16 +37,16 @@ function Footer() {
       <div className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Company</h6>
         <div className="flex flex-col gap-4">
-        <Link to={"/about"} className="link link-hover">
+        <Link to={"/about"}>
           About us
         </Link>
-        <Link to={"/contact"} className="link link-hover">
+        <Link to={"/contact"}>
           Contact
         </Link>
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Our Chefs
         </Link>
-        <Link to={"/about"} className="link link-hover">
+        <Link to={"/about"}>
           Press kit
         </Link>
         </div>
@@ -54,13 +54,13 @@ function Footer() {
       <div className="mb-12">
         <h6 className="text-gray-600 font-bold uppercase mb-4 ">Legal</h6>
         <div className="flex flex-col gap-4">
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Terms of use
         </Link>
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Privacy policy
         </Link>
-        <Link to={"#"} className="link link-hover">
+        <Link to={"#"}>
           Cookie policy
         </Link>
         </div>
