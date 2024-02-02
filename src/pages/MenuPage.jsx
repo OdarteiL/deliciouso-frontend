@@ -15,14 +15,14 @@ function MenuPage() {
   }, []);
 
   return (
-    <div className="md:grid md:grid-cols-3 gap-4 px-[10%]">
+    <div className="md:grid md:grid-cols-3 gap-5 px-[10%]">
       {menuData.length === 0 ? (
         <p>Loading...</p>
       ) : (
         menuData.map((food) => (
           <div
             key={food.id}
-            className="md:w-[400px] md:h-[300px] bg-black relative rounded-[20px] my-8 mx-8"
+            className="md:w-[300px] md:h-[300px] bg-black relative rounded-[20px] my-8 mx-8"
           >
             <div className="w-full h-[80%] object-cover shadow-lg rounded-[20px]">
               <img
